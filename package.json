@@ -1,6 +1,6 @@
 {
-  "homepage": "http://sgalarza419.github.io/reactPortfolio",
   "name": "portolioreact",
+  "homepage": "http://sgalarza419.github.io/reactPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
