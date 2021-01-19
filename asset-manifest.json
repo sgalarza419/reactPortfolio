@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.e61361ff.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.021f34ab.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.021f34ab.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.c54847ff.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.c54847ff.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/reactPortfolio/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.fa574798.chunk.js": "/reactPortfolio/static/js/2.fa574798.chunk.js",
+    "static/js/2.fa574798.chunk.js.map": "/reactPortfolio/static/js/2.fa574798.chunk.js.map",
+    "index.html": "/reactPortfolio/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/reactPortfolio/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.e61361ff.chunk.css.map": "/reactPortfolio/static/css/main.e61361ff.chunk.css.map",
+    "static/js/2.fa574798.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.fa574798.chunk.js.LICENSE.txt",
+    "static/media/Horiseon.0930afa6.PNG": "/reactPortfolio/static/media/Horiseon.0930afa6.PNG",
+    "static/media/Java Quiz.7a78564d.PNG": "/reactPortfolio/static/media/Java Quiz.7a78564d.PNG",
+    "static/media/Random Password.65176893.PNG": "/reactPortfolio/static/media/Random Password.65176893.PNG",
+    "static/media/SMG.822a6bf1.png": "/reactPortfolio/static/media/SMG.822a6bf1.png",
+    "static/media/SpiceItUp.4eefeb47.PNG": "/reactPortfolio/static/media/SpiceItUp.4eefeb47.PNG",
+    "static/media/Weather Dashboard.664d5596.PNG": "/reactPortfolio/static/media/Weather Dashboard.664d5596.PNG",
+    "static/media/Work Day Planner.e244ca4d.PNG": "/reactPortfolio/static/media/Work Day Planner.e244ca4d.PNG",
+    "static/media/App.css": "/reactPortfolio/static/media/aboutMe.41998bca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c54847ff.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.fa574798.chunk.js",
+    "static/css/main.e61361ff.chunk.css",
+    "static/js/main.021f34ab.chunk.js"
+  ]
+}
