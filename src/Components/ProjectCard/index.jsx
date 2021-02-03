@@ -68,9 +68,11 @@ const projectCard = () => {
 
     return ( 
         projects.map((project) => (
-            <Card style={{ width: '18rem' }} key={project.id}>
-              <Card.Img variant="top" src={project.image} />
-              <Card.Body>
+            <div className="col mb-4">
+            <div className="card">
+            <Card key={project.id}>
+              <Card.Img className="card-img-top" src={project.image} alt={project.title} />
+              <Card.Body className='card-body'>
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>
                 {project.body}
@@ -78,8 +80,10 @@ const projectCard = () => {
                 <Card.Link href={project.link}>{project.title}</Card.Link>
               </Card.Body>
             </Card>
+            </div>
+    </div>
             ))
-     );
+        );
 }
  
 export default projectCard;
