@@ -3,8 +3,7 @@ import Contact from "./Pages/Contact";
 import Home from "./Pages/Index";
 import Portfolio from "./Pages/Portfolio";
 import Navbar from "./Components/Navbar";
-import Wrapper from "./Components/Wrapper"
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route , Switch} from "react-router-dom";
 import "./App.css"
 
 function App() {
@@ -13,17 +12,17 @@ function App() {
     <Router>
     <div className="background">
       <Navbar />
-      <Wrapper>
-        <Route exact path={["/", "/about"]}>
+      <Switch>
+        <Route exact path={["/reactPortfolio", "/about"]}>
           <Home />
         </Route>
-        <Route exact path={["/portfolio"]}>
+        <Route path="/portfolio">
           <Portfolio />
         </Route>
-        <Route exact path={["/contact"]}>
+        <Route path="/contact">
           <Contact />
         </Route>
-      </Wrapper>
+      </Switch>
     </div>
   </Router>
   );
