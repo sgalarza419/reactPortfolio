@@ -3,7 +3,7 @@ import Contact from "./Pages/Contact";
 import Home from "./Pages/Index";
 import Portfolio from "./Pages/Portfolio";
 import Navbar from "./Components/Navbar";
-import { BrowserRouter as Router, Route , Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route , HashRouter} from "react-router-dom";
 import "./App.css"
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <Router>
     <div className="background">
       <Navbar />
-      <Switch>
+      <HashRouter>
         <Route exact path={["/reactPortfolio", "/about"]}>
           <Home />
         </Route>
@@ -22,7 +22,7 @@ function App() {
         <Route path="/contact">
           <Contact />
         </Route>
-      </Switch>
+      </HashRouter>
     </div>
   </Router>
   );
